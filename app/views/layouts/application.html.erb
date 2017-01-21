@@ -10,7 +10,7 @@
 </head>
 <body>
   <header id="main_navigation" class="clearfix">
-	<a href="inedx.html" class="name">Alex Muchiri</a>
+  <%= link_to "Alex Muchiri", root_path, class: "name" %>
 	<nav>
 		<%= link_to "Articles", posts_path %>
 		<a href="#">Projects</a>
@@ -20,5 +20,13 @@
 
 <%= yield %>
 
+<footer id="main_footer">
+  <p class="copyright">&copy; 2017 Alex Muchiri</p>
+  <nav>
+    <a href="https://facebook.com/alex.muchiri94" target="_blank"><i class="fa fa-facebook"></i></a>
+    <a href="https://twitter.com/alex_muchiri" target="_blank"><i class="fa fa-twitter"></i></a>
+    <a href="http://github.com/alex-muchiri" target="_blank"><i class="fa fa-github"></i></a>
+  </nav>
+</footer>
 </body>
 </html>
