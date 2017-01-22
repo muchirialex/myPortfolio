@@ -31,6 +31,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'capistrano-rails', group: :development
 gem 'redcarpet', '~> 3.4'
 gem 'will_paginate', '~> 3.1', '>= 3.1.5'
+gem 'friendly_id', '~> 5.2'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
